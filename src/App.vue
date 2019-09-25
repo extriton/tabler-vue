@@ -1,9 +1,9 @@
 <template>
-  
+  <PageSchedule />
 </template>
 
 <script>
-import HelloWorld from '@/components/PageSchedule.vue'
+import PageSchedule from '@/components/PageSchedule.vue'
 
 export default {
   name: 'app',
