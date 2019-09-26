@@ -19,7 +19,7 @@
       </div>
       <!-- Schedule items -->
       <div v-for="(item, index) in schedule.formattedItems" :key="'it' + index" class="schedule-item">
-        {{ item.index }},
+        {{ item.daysStr }}
         <div class="item-value">
           {{ item.textTime }}
         </div>
